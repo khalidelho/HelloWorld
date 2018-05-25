@@ -1,0 +1,4 @@
+
+# default file for travis
+# based on https://docs.travis-ci.com/user/languages/cpp/
+./configure && make && make test
