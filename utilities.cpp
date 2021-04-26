@@ -10,11 +10,4 @@
 using namespace std;
 
 // defined in utilities.cpp
-void helper();
-
-int main() {
-  cout << "Hello, World!" << endl;
-  helper();
-
-  return 0;
-}
+void helper() { cout << "Testing multi-file compile/run" << endl; }

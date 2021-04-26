@@ -1,4 +1,0 @@
-
-# default file for travis
-# based on https://docs.travis-ci.com/user/languages/cpp/
-language: cpp
