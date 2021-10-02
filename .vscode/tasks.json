@@ -10,12 +10,12 @@
                 "-Wextra",
                 "-Wno-sign-compare",
                 "-g",
-                "${fileDirname}/*.cpp",
+                "*.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}.out"
             ],
             "options": {
-                "cwd": "${workspaceFolder}"
+                "cwd": "${fileDirname}"
             },
             "problemMatcher": [
                 "$gcc"
